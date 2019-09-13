@@ -305,7 +305,7 @@ p {
     position: relative;
     background: rgb(196, 197, 201);
     left: 470px;
-    bottom:515px;
+    bottom:590px;
     margin-left:20px;
     color:black;
     height: 590px;
@@ -360,26 +360,10 @@ p {
  left:245px;
  font-size: 50px;
 }
-.button{
-    display:inline-block;
-    position: relative;
-    align-content: center;
-    top:1800px;
-    left:1000px;
-    width: 200px;
-    height: 300px;
-    background:transparent;
-    margin-bottom:40px;
-    border-radius: 10%;
-}
-#button{
-    margin-top: 100px;
-    vertical-align: top;
-}
 .links{
     display: inline-block;
     position: relative;
-    top:1500px;
+    top:1300px;
     left:805px;
     z-index: -2222;
 }
