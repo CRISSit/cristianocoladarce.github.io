@@ -1,0 +1,450 @@
+*::before,
+*::after {
+    margin:0; 
+    padding:0;
+  box-sizing: content-box;
+}
+body{
+    background:  #141E30;
+    min-width:1000px;
+    max-width:1200px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    display: flex;
+}   
+html{
+    min-width: 900px;
+    max-width: 1200px;
+    -webkit-text-size-adjust: 100%;
+} 
+h1{
+    justify-content: center;
+    box-sizing: content-box;
+    height: 0;
+     overflow: visible;
+}
+nav{
+    display: flex;
+    min-height: 20px;
+    justify-content: space-around;
+    box-sizing: content-box;
+    background:#E0EAFC;  /* fallback for old browsers */
+    background:-webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background:linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     box-shadow:0px 0px 7px 1px black;
+
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.title-bar{
+    top: 0;
+    left: 0;
+    height: 120px;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    min-height:30px;
+}
+.title{
+    position: absolute;
+    left:20px;
+    margin-top:2px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size:20px;
+    font-family: 'Oswald', sans-serif;
+}
+.title h2{
+    position: relative;
+    top:20px;
+    font-size: 40px;
+    background-image: linear-gradient( 111.8deg,  rgba(0,104,155,1) 19.8%, rgba(0,173,239,1) 92.1% );
+    background-size: 1200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bar{
+    position: relative;
+    display: inline-block;
+    justify-content: space-around;
+    left:250px;
+    top: 50px;
+    margin-top: 5px;
+    margin-left:20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    z-index: 2;
+}
+.bar a{
+    text-decoration-line: none;
+    position: relative;
+    bottom: 55px;
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(94, 94, 94);
+}
+.bar a:hover{
+    color:black;
+    font-style: italic;
+}
+.welcome{
+    display:flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient( 91.3deg,  rgba(135,174,220,1) 1.5%, rgba(255,255,255,1) 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top:250px;
+    text-align: center;
+    padding-top: 150px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size:100px;
+    width:100%;
+    overflow: hidden; 
+     border-right: 5px solid white;
+    white-space: nowrap; 
+    margin: 0 auto;
+    animation: 
+    typing 4.5s steps(45, end),
+    blink-caret .75s step-end infinite;
+}
+.welcome h2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#welcome{
+    outline-style: none;
+    text-decoration-style: none;
+}
+#img{
+     
+    position: relative;
+    background: white;
+    border-radius: 60%;
+    width: 120px;
+    top:15px;
+    left:5px;
+    margin-right: 20px;
+}
+.content-img{
+    display:flex;
+    align-items: center;
+    position: relative;
+    top:400px;
+    padding: 1px;
+    font-size: 15px;
+    size: 100px;
+    height:150px;
+    border-radius: 5%;
+    width:80%;
+    width:600px;
+    background-image: linear-gradient( 111.8deg,  rgba(0,104,155,1) 19.8%, rgba(0,173,239,1) 92.1% );
+    padding: 3px;
+    animation: slidein 9s steps(60);
+}
+.content{
+    display: flex;
+    position: relative;
+    width: 100%;
+    box-sizing: content-box;
+    top: 10px;
+    left:5px;
+    font-size: 18px;
+    background-color:transparent;
+    padding: 0px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    text-shadow:1px 1px 0px #141E30;
+}
+.content a{
+    text-decoration: none;
+    text-transform: capitalize;
+    outline-style: none;
+    margin: 0;
+    padding:0;
+}
+.content a:hover{
+    text-transform: uppercase;
+    outline-style:none;
+    margin: 0;
+    padding:0;
+}
+.start2impact{
+    position:relative;
+    right: 55px;
+    top:101px;
+    font-size: 20px;
+    outline-style: none;
+    text-decoration: none;
+    color:rgb(46, 204, 113);
+    margin: 0px;
+    padding: 0px;
+}
+.content-web{
+    display:inline-block;
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 100px;
+    left: 00px;
+    width: 100%;
+    height: 1000px;
+    bottom: 20px;
+    margin: 0;
+    box-shadow: 0px 4px 5px black;
+    z-index:1;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%; 
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   border:none;
+}
+#skills{
+    position: relative;
+    bottom:20px;
+    right: 150px;
+    color:rgb(109, 109, 109);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    width: 100%;
+}
+.far , .fas , .fab{
+    background-image: linear-gradient( 111.8deg,  rgba(0,104,155,1) 19.8%, rgba(0,173,239,1) 92.1% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.fa-code{
+  position: relative;
+  top:  10px;
+  right: 330px;
+   font-size: 70px;
+}
+#write-html{
+    position: relative;
+    top: 50px;
+    right: 320px;
+    font-size: 50px;
+    width: 100%;
+}
+#write-css{
+    position: relative;
+    top: 50px;
+    right: 335px;
+    font-size: 50px;
+    width: 100%;
+}
+.skill-box{
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+   top:1100px;
+   left:350px;
+   font-family: 'Oswald', sans-serif;
+   font-size: 30px;
+   background: rgb(241, 242, 246);
+   width:800px;
+   height: 600px;
+   padding-top: 99px;
+
+}
+.skill{ 
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    height: 6px;
+    top: 50px;
+    left: 5px;
+    background-image: linear-gradient( 111.8deg,  rgba(0,104,155,1) 19.8%, rgba(0,173,239,1) 92.1% );
+    box-shadow: 0 2px 7px rgb(167, 167, 167);
+    min-width: 100px;
+    width: 50%;
+    margin-bottom: 60px;
+    border-radius: 10%;
+    animation: skill 6s;
+    animation-delay: 7s;
+    
+}
+
+.vertical-line{
+    position: relative;
+    background: rgb(196, 197, 201);
+    left: 470px;
+    bottom:585px;
+    margin-left:20px;
+    color:black;
+    height: 590px;
+    width: 1px;
+}
+#soft-skill{
+    position: relative;
+    bottom: 1110px;
+    left: 250px;
+    color:rgb(109, 109, 109);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+.fa-brain{
+ position: relative;
+ bottom:1100px;
+ left:245px;
+ font-size: 60px;
+}
+.fa-user-friends{
+    position: relative;
+    bottom:1100px;
+    left:245px;
+    font-size: 60px;
+}
+.fa-check-circle{
+    position: relative;
+    bottom:1110px;
+    left:245px;
+    font-size: 60px;
+}
+#creative{
+    color:rgb(87, 96, 111);
+    position: relative;
+ bottom:1100px;
+ left:245px;
+ font-size: 50px;
+}
+#user{
+    color: rgb(87, 96, 111);
+    position: relative;
+ bottom:1100px;
+ left:245px;
+ font-size: 50px;
+}
+#precision{
+    color: rgb(87, 96, 111);
+    position: relative;
+ bottom:1100px;
+ left:245px;
+ font-size: 50px;
+}
+.button{
+    display:inline-block;
+    position: relative;
+    align-content: center;
+    top:1800px;
+    left:1000px;
+    width: 200px;
+    height: 300px;
+    background:transparent;
+    margin-bottom:40px;
+    border-radius: 10%;
+}
+#button{
+    margin-top: 100px;
+    vertical-align: top;
+}
+.links{
+    display: inline-block;
+    position: relative;
+    top:1500px;
+    left:805px;
+    z-index: -2222;
+}
+.fa-linkedin{
+    position: relative;
+    bottom: 150px;
+    left:425px;
+    font-size: 80px;
+    z-index: -1005;
+    background: rgb(255, 255, 255);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.fa-linkedin:hover{
+    font-stretch: expanded;
+    font-size: 120px;
+}
+a .fa-envelope{
+    text-decoration: none;
+    text-decoration-style: none; 
+    outline-style: none;
+}
+.fa-envelope{
+    position: relative;
+    bottom: 60px;
+    left:420px;
+    font-size: 80px;
+    color:white;
+    background: rgb(255, 255, 255);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-envelope:hover{
+    font-stretch: expanded;
+    font-size: 120px;
+}
+hr{
+    position: relative;
+    top: 130px;
+    background:black;
+}
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+  @keyframes slidein{
+      0%{
+          transform: translateX(-800px);
+      }
+      50%{
+          transform: translateX(-600px);
+      }
+      70%{
+          transform: translateX(-300px);
+      }
+      80%{
+          transform: translateX(-150px);
+      }
+      100%{
+          transform: translateX(0px);
+      }
+  }
+  @keyframes skill{
+      0%{
+         width: 0%;
+      }
+      100%{
+          width: 50%;
+      }
+  }
+  /* Media Queries */
+  @media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
