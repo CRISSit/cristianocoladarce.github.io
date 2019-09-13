@@ -255,7 +255,7 @@ p {
     text-align: center;
     display: inline-block;
     position: absolute;
-   top:1100px;
+   top:900px;
    left:350px;
    font-family: 'Oswald', sans-serif;
    font-size: 30px;
@@ -288,7 +288,7 @@ p {
     position: relative;
     background: rgb(196, 197, 201);
     left: 470px;
-    bottom:585px;
+    bottom:515px;
     margin-left:20px;
     color:black;
     height: 590px;
