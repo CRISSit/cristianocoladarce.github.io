@@ -272,7 +272,7 @@ p {
     text-align: center;
     display: inline-block;
     position: absolute;
-   top:900px;
+   top: 1100px;
    left:350px;
    font-family: 'Oswald', sans-serif;
    font-size: 30px;
@@ -372,9 +372,6 @@ p {
     left:425px;
     font-size: 80px;
     z-index: -1005;
-    background: rgb(255, 255, 255);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     
 }
 .fa-linkedin:hover{
@@ -391,10 +388,6 @@ a .fa-envelope{
     bottom: 60px;
     left:420px;
     font-size: 80px;
-    color:white;
-    background: rgb(255, 255, 255);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 .fa-envelope:hover{
     font-stretch: expanded;
