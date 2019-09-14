@@ -378,7 +378,7 @@ p {
 .fa-linkedin{
     position: relative;
      top:20px;
-    left:75px;
+    left:65px;
     font-size: 100px;
     z-index: -1005;
     
@@ -395,7 +395,7 @@ a .fa-envelope{
 .fa-envelope{
     position: relative;
     top: 60px;
-    left:7<0px;
+    left:60px;
     font-size: 100px;
 }
 .fa-envelope:hover{
